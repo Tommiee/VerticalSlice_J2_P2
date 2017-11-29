@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 46817f6c03a987947b1012942ee4d897
+timeCreated: 1511874733
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 12
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: TeX Gyre Adventor
+  fontNames:
+  - ITC Avant Garde
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
