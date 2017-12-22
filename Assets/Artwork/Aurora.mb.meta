@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: eaf8a071a8596aa4c9b46560caa4bce7
+timeCreated: 1513855074
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: aurora:pTorus1
+    100004: back
+    100006: Lathe
+    100008: Lathe1
+    100010: Lathe10
+    100012: Lathe11
+    100014: Lathe12
+    100016: Lathe13
+    100018: Lathe14
+    100020: Lathe15
+    100022: Lathe16
+    100024: Lathe17
+    100026: Lathe18
+    100028: Lathe19
+    100030: Lathe2
+    100032: Lathe20
+    100034: Lathe21
+    100036: Lathe3
+    100038: Lathe4
+    100040: Lathe5
+    100042: Lathe6
+    100044: Lathe7
+    100046: Lathe8
+    100048: Lathe9
+    100050: pCube4
+    100052: pSphere1
+    400000: //RootNode
+    400002: aurora:pTorus1
+    400004: back
+    400006: Lathe
+    400008: Lathe1
+    400010: Lathe10
+    400012: Lathe11
+    400014: Lathe12
+    400016: Lathe13
+    400018: Lathe14
+    400020: Lathe15
+    400022: Lathe16
+    400024: Lathe17
+    400026: Lathe18
+    400028: Lathe19
+    400030: Lathe2
+    400032: Lathe20
+    400034: Lathe21
+    400036: Lathe3
+    400038: Lathe4
+    400040: Lathe5
+    400042: Lathe6
+    400044: Lathe7
+    400046: Lathe8
+    400048: Lathe9
+    400050: pCube4
+    400052: pSphere1
+    2000000: back
+    2300000: aurora:pTorus1
+    2300002: Lathe
+    2300004: Lathe1
+    2300006: Lathe10
+    2300008: Lathe11
+    2300010: Lathe12
+    2300012: Lathe13
+    2300014: Lathe14
+    2300016: Lathe15
+    2300018: Lathe16
+    2300020: Lathe17
+    2300022: Lathe18
+    2300024: Lathe19
+    2300026: Lathe2
+    2300028: Lathe20
+    2300030: Lathe21
+    2300032: Lathe3
+    2300034: Lathe4
+    2300036: Lathe5
+    2300038: Lathe6
+    2300040: Lathe7
+    2300042: Lathe8
+    2300044: Lathe9
+    2300046: pCube4
+    2300048: pSphere1
+    3300000: aurora:pTorus1
+    3300002: Lathe
+    3300004: Lathe1
+    3300006: Lathe10
+    3300008: Lathe11
+    3300010: Lathe12
+    3300012: Lathe13
+    3300014: Lathe14
+    3300016: Lathe15
+    3300018: Lathe16
+    3300020: Lathe17
+    3300022: Lathe18
+    3300024: Lathe19
+    3300026: Lathe2
+    3300028: Lathe20
+    3300030: Lathe21
+    3300032: Lathe3
+    3300034: Lathe4
+    3300036: Lathe5
+    3300038: Lathe6
+    3300040: Lathe7
+    3300042: Lathe8
+    3300044: Lathe9
+    3300046: pCube4
+    3300048: pSphere1
+    4300000: aurora:pTorus1
+    4300002: Lathe
+    4300004: Lathe1
+    4300006: Lathe2
+    4300008: Lathe3
+    4300010: Lathe4
+    4300012: Lathe5
+    4300014: Lathe6
+    4300016: Lathe7
+    4300018: Lathe8
+    4300020: Lathe9
+    4300022: Lathe10
+    4300024: Lathe11
+    4300026: Lathe12
+    4300028: Lathe13
+    4300030: Lathe14
+    4300032: Lathe15
+    4300034: Lathe16
+    4300036: Lathe17
+    4300038: Lathe18
+    4300040: Lathe19
+    4300042: Lathe20
+    4300044: Lathe21
+    4300046: pSphere1
+    4300048: pCube4
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kroon
+    second: {fileID: 2100000, guid: eb8e9bbd9ef20ab4a9424316ca557619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: c3aca56590beabb48a7df22b9019b2dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 0a2ed1e15394cdb44894db1a21c6e3de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 524ffff7967bd2742bd2c74bf3ab2796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichaam
+    second: {fileID: 2100000, guid: 846bc5b0b0970854ca1155d58affd784, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

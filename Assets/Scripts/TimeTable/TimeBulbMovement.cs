@@ -8,7 +8,7 @@ public class TimeBulbMovement : MonoBehaviour {
     float moveSpeed;
     GameObject timeTable;
     float timeTableRightBound;
-    bool move;
+    public bool move;
     Vector3 startPos;
     [SerializeField]
     float rightBoundOffset;
@@ -61,7 +61,9 @@ public class TimeBulbMovement : MonoBehaviour {
             {
                 move = false;
                 energy.GetComponent<Energy>().move = move;
-            }
+
+				Camera.main.GetComponent<Animator>().Play("Player Attack Cam");
+			}
         }
 
         if (Input.GetKeyDown(KeyCode.L))

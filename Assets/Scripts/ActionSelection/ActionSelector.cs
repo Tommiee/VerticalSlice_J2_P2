@@ -22,7 +22,14 @@ public class ActionSelector : MonoBehaviour {
     public Sprite magicNonSelect;
     public Sprite magicSelect;
 
-    [SerializeField]
+	[SerializeField]
+	private GameObject enemyBulb;
+	[SerializeField]
+	private GameObject playerBulb;
+	[SerializeField]
+	private GameObject energy;
+
+	[SerializeField]
     private float scaleValue;
 
     private Vector3 defendStartScale, attackStartScale, magicStartScale, defendScale, attackScale, magicScale;
@@ -70,11 +77,14 @@ public class ActionSelector : MonoBehaviour {
         }
 
         // Checks if the player presses enter
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             index = 3;
             CheckSelected();
-        }
+			enemyBulb.GetComponent<TimeBulbMovement>().move = !enemyBulb.GetComponent<TimeBulbMovement>().move;
+			playerBulb.GetComponent<TimeBulbMovement>().move = !playerBulb.GetComponent<TimeBulbMovement>().move;
+			energy.GetComponent<Energy>().move = !energy.GetComponent<Energy>().move;
+		}
     }
 
     // Checks which option is selected and increases its size to indicate it's selected
